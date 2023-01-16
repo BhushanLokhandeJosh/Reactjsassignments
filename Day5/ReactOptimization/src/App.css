@@ -1,0 +1,112 @@
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.loader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.edit-box {
+  width: 70%;
+  height: 50%;
+  padding: 50px;
+  border: 1px solid black;
+}
+
+.edit-box input,
+select,
+textarea {
+  text-align: left;
+  padding-left: 20px;
+  margin: 20px 0;
+  width: 20%;
+  margin-left: 20px;
+}
+
+.edit-box label {
+  color: red;
+}
+
+.link {
+  font-size: 30px;
+  background-image: linear-gradient(to right, #687f87, #2a88aa 50%, #000 50%);
+  background-size: 200% 100%;
+  background-position: -100%;
+  display: inline-block;
+  padding: 5px 0;
+  position: relative;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+.link:before {
+  content: "";
+  background: #54b3d6;
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  transition: all 0.3s ease-in-out;
+}
+
+.link:hover {
+  background-position: 0;
+}
+
+.link:hover::before {
+  width: 100%;
+}
+
+.header {
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+}
+
+.blog-details {
+  box-shadow: 10px 10px 10px 10px lightcyan;
+  width: 40%;
+  margin: auto;
+  text-align: center;
+  padding: 10% 0;
+}
+
+.blog-details h4,
+pre {
+  padding-top: 20px;
+  color: lightcoral;
+  margin: auto;
+}
+
+.create-form {
+  margin: auto;
+  width: 60%;
+  height: 50%;
+  padding: 10% 0;
+  align-self: center;
+  /* min-height: 100%;
+  min-width: 50%; */
+}
+
+.create-form label {
+  color: lightcoral;
+}
