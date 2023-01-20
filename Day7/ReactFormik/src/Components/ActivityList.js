@@ -23,7 +23,6 @@ const ActivityListComponent = ({
         <input
           type="text"
           id="search"
-          value={searchtitle}
           placeholder="Search title"
           onChange={(e) => {
             setSearchtitle(e.target.value);
@@ -90,11 +89,7 @@ const ActivityListComponent = ({
               <td>{object.status}</td>
               <td>
                 <button className="btn btn-outline-info link">
-                  <Link
-                    to={`/todos/edit/${object.id}/${object.status}/${object.DueDate}`}
-                  >
-                    Edit
-                  </Link>
+                  <Link to={`/todos/edit/${object.id}`}>Edit</Link>
                 </button>
               </td>
               <td>

@@ -5,10 +5,11 @@ export const getAllTodos = (params) => {
 };
 
 export const getTodoById = (id) => {
-  console.log("In get todo api" + id);
+  console.log("In get todo api -> " + id);
   return GET(`/todo/${id}`);
 };
-export const patchTodo = (id, body) => {
+export const patchTodo = ({ id, body }) => {
+  console.log({ id, body });
   return PATCH(`/todo/${id}`, body);
 };
 export const postTodo = (body) => {
