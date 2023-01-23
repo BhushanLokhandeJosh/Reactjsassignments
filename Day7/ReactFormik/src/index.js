@@ -10,12 +10,12 @@ import "bootstrap/dist/css/bootstrap.min.css";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 const queryClient = new QueryClient({
-  // defaultOptions: {
-  //   queries: {
-  //     refetchOnWindowFocus: false,
-  //     staleTime: 3000,
-  //   },
-  // },
+  defaultOptions: {
+    queries: {
+      refetchOnWindowFocus: false,
+      staleTime: 3000,
+    },
+  },
 });
 
 root.render(

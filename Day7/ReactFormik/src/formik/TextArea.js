@@ -19,7 +19,7 @@ const TextArea = (props) => {
         {...other}
         className="form-control"
       />
-      <ErrorMessage name={name} errorMessage={<FormError />} />
+      <ErrorMessage name={name} errorMessage={FormError} />
     </div>
   );
 };

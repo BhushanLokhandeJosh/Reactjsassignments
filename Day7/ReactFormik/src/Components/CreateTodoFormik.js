@@ -63,6 +63,7 @@ const CreateTodoFormik = () => {
       >
         {(formikProps) => {
           console.log(formikProps.values);
+
           return (
             <Form>
               <div className="form-group">
