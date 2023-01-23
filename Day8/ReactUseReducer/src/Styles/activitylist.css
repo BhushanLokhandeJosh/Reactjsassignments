@@ -1,0 +1,43 @@
+table {
+  color: black;
+  background-color: white;
+  margin-top: 50px;
+  border-collapse: collapse;
+  border-spacing: 10px;
+  border-radius: 1px solid;
+  width: 90%;
+  height: 70%;
+  justify-content: center;
+}
+
+th {
+  color: red;
+  height: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+br {
+  background-color: black;
+}
+
+td {
+  height: 20px;
+  padding: 15px;
+}
+
+tr:hover {
+  background-color: white;
+  border: 1px solid black;
+}
+
+.extra-width {
+  width: 200px;
+  height: auto;
+}
+
+input,
+select,
+option {
+  padding: 0px 5px 0px 5px;
+  width: 15%;
+}
