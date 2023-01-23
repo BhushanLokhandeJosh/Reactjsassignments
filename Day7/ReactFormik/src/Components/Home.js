@@ -15,7 +15,7 @@ const Home = () => {
   const [searchtitle, setSearch] = useState("");
   const [sort, setSorting] = useState("id");
   const [order, setOrder] = useState("ASC");
-  const [status, setStatus] = useState(undefined);
+  const [status, setStatus] = useState("All");
   const [buttondata, setButtonData] = useState("");
 
   const { data, isLoading, error } = useQuery(

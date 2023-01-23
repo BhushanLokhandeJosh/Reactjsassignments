@@ -28,10 +28,10 @@ const TodoEdit = () => {
   useEffect(() => {
     if (data) {
       console.log(data);
-      setEditedTitle(data?.title);
-      setStatus(data?.status);
-      setDescription(data?.details);
-      setDate(data?.DueDate);
+      setEditedTitle(data.title);
+      setStatus(data.status);
+      setDescription(data.details);
+      setDate(data.DueDate);
     }
   }, [data]);
 

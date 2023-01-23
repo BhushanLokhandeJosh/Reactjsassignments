@@ -1,0 +1,23 @@
+.form-group {
+  width: 70%;
+  margin: 5% auto;
+}
+
+.button-submit {
+  margin: 5% auto;
+  text-align: center;
+}
+
+.create-form {
+  margin: 5% auto;
+  width: 30%;
+  height: 50%;
+  border: 2px solid black;
+  border-style: solid;
+  box-shadow: 5px 10px gray;
+}
+
+.error-msg {
+  color: red;
+  background-color: yellow;
+}
