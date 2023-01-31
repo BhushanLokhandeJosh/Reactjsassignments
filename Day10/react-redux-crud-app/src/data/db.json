@@ -1,0 +1,28 @@
+{
+  "contact": [
+    {
+      "id": 1,
+      "name": "Bhushan",
+      "number": 9999999999,
+      "email": "bhushan@gmail.com"
+    },
+    {
+      "id": 2,
+      "name": "Dhawal",
+      "number": 6758973000,
+      "email": "dhawal@gmail.com"
+    },
+    {
+      "id": 4,
+      "name": "Shubham",
+      "number": 9876543210,
+      "email": "shubham@gmail.com"
+    },
+    {
+      "id": 5,
+      "name": "Akshay",
+      "email": "akshay@gmail.com",
+      "number": "8789789098"
+    }
+  ]
+}
