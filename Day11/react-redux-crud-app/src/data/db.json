@@ -1,0 +1,52 @@
+{
+  "contact": [
+    {
+      "id": 1,
+      "name": "Bhushan",
+      "email": "bhushan@gmail.com",
+      "number": "9999999978"
+    },
+    {
+      "id": 2,
+      "name": "Dhawal",
+      "number": 6758973000,
+      "email": "dhawal@gmail.com"
+    },
+    {
+      "id": 3,
+      "name": "Akshay",
+      "email": "akshay@gmail.com",
+      "number": "7869786965"
+    },
+    {
+      "id": 4,
+      "name": "Maaz",
+      "email": "maaz@gmail.com",
+      "number": "4567856789"
+    },
+    {
+      "id": 5,
+      "name": "Prathmesh",
+      "email": "prathmesh@gmail.com",
+      "number": "8967890978"
+    },
+    {
+      "id": 6,
+      "name": "Sanket",
+      "email": "sanket@gmail.com",
+      "number": "7646520409"
+    },
+    {
+      "id": 7,
+      "name": "Maaz",
+      "email": "maz@gmail.com",
+      "number": "3475277279"
+    },
+    {
+      "name": "Deepak",
+      "email": "d@gmail.com",
+      "number": "4789054769",
+      "id": 8
+    }
+  ]
+}
