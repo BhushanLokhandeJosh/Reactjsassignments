@@ -13,6 +13,7 @@ import "./App.css";
 
 export const LocationDisplay = () => {
   const location = useLocation();
+  console.log()
   return <div data-testid="location-display">{location.pathname}</div>;
 };
 

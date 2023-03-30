@@ -29,7 +29,6 @@ describe("Add Contact Component", () => {
         <LocationDisplay />
       </MemoryRouter>
     );
-
     await expect(screen.getByTestId("location-display")).toHaveTextContent(route);
   });
 
@@ -63,7 +62,7 @@ describe("Add Contact Component", () => {
     await expect(emailElement.value).toBe("bhushan@gmail.com");
     await expect(contactElement.value).toBe("8329458132");
   });
-
+ 
 
   it("Form submit and navigate back to another route.", async () => {
     const route = "/";

@@ -1,0 +1,19 @@
+{
+  "recommendations": [
+    "infeng.vscode-react-typescript",
+    "aeschli.vscode-css-formatter",
+    "kungfoowiz.csssuggestions",
+    "walter-ribeiro.full-react-snippets",
+    "wscats.html-snippets",
+    "oderwat.indent-rainbow",
+    "pkief.material-icon-theme",
+    "monokai.theme-monokai-pro-vscode",
+    "esbenp.prettier-vscode",
+    "mohsen1.prettify-json",
+    "zacklittke-smith.reactcssautocomplete",
+    "suryadevelops.react-redux-es7-snippets",
+    "discountry.react-redux-react-router-snippets",
+    "reactreduxrouterreact-nativeimportes7snippets.react-redux-router-snippets",
+    "orta.vscode-jest"
+  ]
+}

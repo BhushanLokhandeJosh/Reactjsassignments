@@ -18,17 +18,14 @@ const Form = ({
 
   const updateTodo = (title, id, status) => {
     let date = new Date();
-    console.log(date);
     const newTodo = activity.map((activity) =>
       activity.id === id ? { id, title, status, date } : activity
     );
-    console.log(newTodo);
     setActivity(newTodo);
     setEditedToDo("");
   };
 
   const onInputChange = (event) => {
-    console.log(event);
     setInput(event.target.value);
   };
 

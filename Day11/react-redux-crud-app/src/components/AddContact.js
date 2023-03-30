@@ -14,7 +14,6 @@ const AddContact = () => {
   const { contact, loading, error } = useSelector((state) => state.data);
   const dispatch = useDispatch();
 
-
   const handleSubmit = (e) => {
     e.preventDefault();
 
@@ -39,7 +38,7 @@ const AddContact = () => {
     }
 
     const data = {
-      id:contact[contact.length-1].id+1,
+      id: contact[contact.length - 1].id + 1,
       name,
       email,
       number,
@@ -98,6 +97,13 @@ const AddContact = () => {
                   value="add Contact"
                   className="btn btn-block btn-dark"
                 />
+                <Link
+                  to="/"
+                  className="btn btn-danger ml-3"
+                  style={{ marginLeft: "30px" }}
+                >
+                  Cancel
+                </Link>
               </div>
             </form>
           </div>

@@ -14,6 +14,8 @@ export const loadUsersError = (error) => ({
   payload: error,
 });
 
+
+
 export const createUserStart = (contact) => ({
   type: types.CREATE_USER_START,
   payload: contact,
@@ -27,6 +29,9 @@ export const createUserError = (error) => ({
   type: types.CREATE_USER_ERROR,
   payload: error,
 });
+
+
+
 
 export const deleteUserStart = (contactId) => ({
   type: types.DELETE_USER_START,
@@ -43,6 +48,8 @@ export const deleteUserError = (error) => ({
   payload: error,
 });
 
+
+
 export const updateUserStart = (contactInfo) => ({
   type: types.UPDATE_USER_START,
   payload: contactInfo,
@@ -56,3 +63,5 @@ export const updateUserError = (error) => ({
   type: types.UPDATE_USER_ERROR,
   payload: error,
 });
+
+
